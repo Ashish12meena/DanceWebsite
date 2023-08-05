@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+#contact{
+    background-color: rgb(132, 138, 143);
+    height: 80vh;
+}
+.input-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    margin: 40px;
+}
+.myInput{
+    width: 30%;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+    border: 2px solid rgb(56, 4, 4);
+    outline: none;
+}
+.btn{
+    margin: 20px 20px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: black;
+    color:white;
+}
