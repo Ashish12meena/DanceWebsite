@@ -1,0 +1,40 @@
+extends base.pug
+
+block scripts
+    script(src='/static/index.js')
+
+block style
+    style
+        include ../static/style.css
+
+block content
+        section#introSection 
+            div 
+                div.intro-heading Welcome to Ashish Dance Academy
+            | Dance is the hidden language of the soul
+        section#missionSection
+            div.mission-heading.box Our mission      
+            div.card.box
+                h3 Dance perfection
+                div.card-img
+                    img(src="/static/img/dance.png", alt="")
+                    div.card-content
+                        p  This is the bes website in universe  
+            div.card.box
+                h3 Dance the way you like 
+                div.card-img
+                    img(src="/static/img/dance2.png", alt="")
+                    div.card-content
+                        p  This is the bes website in universe
+            div.card.box
+                h3 expert teaching 
+                div.card-img
+                    img(src="/static/img/dance3.png", alt="")
+                    div.card-content
+                        p  This is the bes website in universe  
+        section#sponserSection 
+            div.sponser-heading Our Sponsers
+            div#sponser
+                img(src="/static/img/apple.png", alt="apple img",class="class-sponser")
+                img(src="/static/img/infosys.png", alt="infosys img",class="class-sponser")
+                img(src="/static/img/skype.png", alt="skype img",class="class-sponser") 
