@@ -1,0 +1,94 @@
+@media only screen and (max-width:700px) {
+    /* .text-big {
+        font-size: 1rem;
+    }
+
+    .text-small {
+        font-size: 0.5rem;
+    } */
+
+    .firstSection {
+        height: auto;
+        padding: 100px 0px;
+    }
+
+    .navbar {
+        font-size: 0.8rem;
+    }
+
+    .right-nav input {
+        width: 60px;
+        border-radius: 4px;
+        height: 10px;
+    }
+
+    .search img {
+        height: 12px;
+        padding: 0px 2px;
+    }
+
+    .btnSmall {
+        margin: 0% 10% 0% 4%;
+        padding: 1px 5px;
+    }
+}
+.toogle{
+    display: none;
+}
+
+@media only screen and (max-width:460px) {
+    .firstSection {
+        height: auto;
+        padding: 60px 0px;
+    }
+    .navbar {
+        flex-direction: column;
+    }
+    .v-class{
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+    .box-main {
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .form-group {
+        flex-direction: column;
+        font-size: 1rem;
+    }
+    .secRight {
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .footer{
+        font-size: 0.7rem;
+    }
+    
+}
+@media only screen and (max-width:250px) {
+    .nav-list{
+        flex-direction: column;
+    }
+    .right-nav{
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width:1800px) {
+    .text-big {
+        font-size: 2.5rem;
+    }
+
+    .text-small {
+        font-size: 1.4rem;
+    }
+
+    .firstSection {
+        height: 100vh;
+    }
+
+    .navbar {
+        font-size: 1.4rem;
+    }
+}
